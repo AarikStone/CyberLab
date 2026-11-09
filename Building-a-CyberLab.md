@@ -164,5 +164,5 @@ Huzzah. Our previously jobless `nvme0n1` drive now has a juicy 465.8G partition 
 stone@stone:~$ sudo chown stone:stone /home/stone/CyberLab/
 ```
 
-And there we have it! We've successfully created a dedicated storage location for our lab stuff. It's formatted, mounted, and configured to persist across reboots.
+And there we have it! We've successfully created a dedicated storage location for our lab stuff. It's formatted, mounted, and configured to persist across reboots. There's still quite a bit more we could do, like creating a git repository or installing some virtual machines, but we'll save that for a future project.
 
