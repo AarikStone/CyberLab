@@ -1,9 +1,12 @@
 # Building a CyberLab: Linux Systems Administration
 <br>
+
+What is a CyberLab? Dunno.
 <br>
-What is a CyberLab? Dunno. Let's build one anyway.
+
+Let's build one anyway.
 <br>
-<br>
+
 We'll start by making a directory where we can 'neatly' keep all our lab stuff (virtual machines, CTF write-ups, scripts, whatever- we'll worry about organization once we've got stuff to organize). I'll call it `CyberLab` because it sounds cool, and I'll slap it right in my home directory for convenience.
 
 ```bash
