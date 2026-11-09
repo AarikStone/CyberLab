@@ -2,7 +2,8 @@
 <br>
 <br>
 What is a CyberLab? Dunno. Let's build one anyway.
-
+<br>
+<br>
 We'll start by making a directory where we can 'neatly' keep all our lab stuff (virtual machines, CTF write-ups, scripts, whatever- we'll worry about organization once we've got stuff to organize). I'll call it `CyberLab` because it sounds cool, and I'll slap it right in my home directory for convenience.
 
 ```bash
@@ -167,5 +168,5 @@ Huzzah. Our previously jobless `nvme0n1` drive now has a juicy 465.8G partition 
 stone@stone:~$ sudo chown stone:stone /home/stone/CyberLab/
 ```
 
-And there we have it! We've successfully created a dedicated storage location for our lab stuff. It's formatted, mounted, and configured to persist across reboots. There's still quite a bit more we could do, like creating a git repository or installing some virtual machines, but we'll save that for future projects.
+And there we have it. We've successfully created a dedicated storage location for our lab stuff. It's formatted, mounted, and configured to persist across reboots. There's still quite a bit more we could do, like creating a git repository or installing some virtual machines, but we'll save that for future projects.
 
