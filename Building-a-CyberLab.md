@@ -114,7 +114,7 @@ UUID=97c8199f-2a92-4a6f-a06e-a5b476b318ab /home/stone/CyberLab ext4 defaults,nof
 Here's a quick breakdown of what we're looking at:
 
 | Argument | Purpose |
-| --- | --- |
+| ---: | :--- |
 | `UUID=...` | Identifies the filesystem we want to mount.|
 | `/home/stone/CyberLab` | The directory where we want the filesystem mounted.|
 |`ext4` | The filesystem type.|
