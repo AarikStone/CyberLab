@@ -1,7 +1,10 @@
 # Building a CyberLab, Part 2: System Virtualization
 <br>
 
-So now we've got ourselves a somewhat passable lab environment. Let's step inside and take a look at our handiwork.
+So now we've got ourselves an almost passable lab environment.
+<br>
+
+Let's step inside and take a look at our handiwork.
 
 ```bash
 stone@stone:~$ cd ./CyberLab/
@@ -267,15 +270,15 @@ stone@stone:~/CyberLab$ vboxmanage storageattach kali2026 --storagectl=sata-cont
 
 With the Kali ISO removed, we can now reboot into our freshly installed operating system. Go ahead and reboot from the Kali VM window. Once it's back up, we should be able to log in and marvel at our cool new virtual desktop.
 
-*[Insert screenshot of the Kali desktop here.]*
+![Kali desktop](/images/kali-desktop-screenshot.png "Kali desktop")
 
 Perfect. We've got ourselves a fully functional Kali Linux virtual machine. And as a little bonus, it already comes with a current-enough version of Guest Additions installed and ready to do God's work.
 
 By now, our Windows installation should have finished cooking too. Let's take a peek.
 
-*[Insert screenshot of the Windows desktop here.]*
+![Windows desktop](/images/windows-desktop-screenshot.png "Windows desktop")
 
-Excellent. By this point, both of our virtual machines should also have Guest Additions installed and running. Now we can bestow upon them the multiversal power that is bidirectional clipboard sharing.
+Excellent. By this point, both of our virtual machines should also have Guest Additions installed and running. Now we can bestow upon them the multiversal power that is *_bidirectional clipboard sharing_*.
 
 ```bash
 stone@stone:~/CyberLab$ vboxmanage controlvm windows11 clipboard mode bidirectional
@@ -283,7 +286,7 @@ stone@stone:~/CyberLab$ vboxmanage controlvm kali2026 clipboard mode bidirection
 
 ```
 
-And there we have it. We've gone from an empty directory to two fully functional virtual machines, each with its own operating system, virtual hard drive, and a few extra quality-of-life improvements to make life a little easier.
+And there we have it. We've gone from an empty directory to two fully functional virtual machines, each with its own operating system, virtual hard drive, and a few extra quality-of-life improvements to make life a little... quality-er.
 
 Our CyberLab is finally starting to look a little more deserving of its name. We've got the storage, the virtualization, and a couple of operating systems to play with. All that's missing now is an actual network environment.
 
